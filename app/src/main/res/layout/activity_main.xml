@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/mainimage"
+    tools:context=".FirstScreen.MainActivity">
+
+
+    <!--<TextView-->
+    <!--android:text="Book My Visit"-->
+    <!--android:textSize="28sp"-->
+    <!--android:gravity="center"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+    <!--android:theme="@android:style/Theme.NoTitleBar"-->
+    <!--android:layout_marginTop="11dp"-->
+    <!--android:shadowColor="#fff"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--/>-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--android:id="@+id/btn"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="63dp"-->
+    <!--android:layout_marginLeft="32dp"-->
+    <!--android:layout_marginTop="480dp"-->
+    <!--android:layout_marginRight="32dp"-->
+    <!--android:background="@drawable/round_back"-->
+    <!--android:text="Sign In"-->
+
+    <!--/>-->
+
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sign_in_button"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="33dp"
+        android:background="@drawable/round_back"
+        android:onClick="PhoneActivity"
+        android:drawableLeft="@drawable/phone_img"
+        android:paddingLeft="13dp"
+        android:paddingTop="7dp"
+        android:text="Phone" />
+
+    <!--<com.facebook.login.widget.LoginButton-->
+    <!--android:id="@+id/facebook_btn"-->
+    <!--android:layout_width="346dp"-->
+    <!--android:layout_height="53dp"-->
+    <!--android:layout_alignBottom="@+id/phone"-->
+    <!--android:layout_marginLeft="33dp"-->
+    <!--android:layout_marginRight="33dp"-->
+    <!--android:layout_marginBottom="-57dp"-->
+    <!--android:paddingTop="13dp"-->
+    <!--android:paddingBottom="13dp" />-->
+
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="395dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_back"
+        android:drawableLeft="@drawable/google"
+        android:onClick="googleLogin"
+        android:paddingLeft="10dp"
+        android:paddingRight="40dp"
+        android:text="sign in with google" />
+
+    <TextView
+        android:id="@+id/signuptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phone"
+        android:layout_marginLeft="40dp"
+        android:onClick="textclickactvity"
+        android:layout_marginBottom="-60dp"
+        android:text="Doesn't have an account or Sign-in with Facebook"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

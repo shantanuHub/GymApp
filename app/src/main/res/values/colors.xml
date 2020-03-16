@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#DF3728</color>
+    <color name="colorAccent">#2f083a</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="red">#7cb908</color>
+    <color name="viewcolor">#9e9e9e</color>
+    <color name="searchbg">#ebebeb</color>
+    <color name="editTextBG">#DADADA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textColor">#6e6e6e</color>
+    <color name="bmvblack">#0a0d1d</color>
+    <color name="homescrenColor">#151c25</color>
+    <color name="homescreenColorPrimary">#151c25</color>
+    <color name="yellow">#f1b014</color>
+    <color name="grey">#c1c1c1</color>
+
+
+
+</resources>
